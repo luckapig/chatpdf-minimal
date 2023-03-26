@@ -4,7 +4,7 @@
 
 此项目目的在于研究 chatpdf 实现原理 | this project aims at learn how to build app like chatpdf
 
-![screenshot](./screenshoot.png)
+![screenshot](./screenshot.gif)
 
 ## 实现原理 | process flow
 
