@@ -43,7 +43,7 @@ def get3questions(sources,embeddings):
       if len(ctx)>CONTEXT_TOKEN_LIMIT:
         continue
       ctx+= u"\n"+x
-    prompt = u"Suggest a simple clear single question base on the context, answer in the same language of context\n\nContext:"+ctx+u"\n\nAnswer with the language used in context:"
+    prompt = u"Suggest a simple, clear, single, short question base on the context, answer in the same language of context\n\nContext:"+ctx+u"\n\nAnswer with the language used in context, the question is:"
     df2.loc[len(df2)] = [len("".join(ps)),prompt]
   
   questions = []
